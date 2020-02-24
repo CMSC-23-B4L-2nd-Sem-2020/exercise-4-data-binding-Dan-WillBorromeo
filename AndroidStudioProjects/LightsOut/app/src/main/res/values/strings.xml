@@ -2,4 +2,7 @@
     <string name="app_name">Lights Out</string>
     <string name="nicknamePrompt">Enter your nickname</string>
     <string name="done">Done</string>
+    <string name="retry">Retry</string>
+    <string name="clicks">Number of clicks</string>
+    <string name="defaultClick">0</string>
 </resources>
