@@ -85,5 +85,6 @@ class MainActivity : AppCompatActivity() {
         box22.visibility = View.VISIBLE
         box23.visibility = View.VISIBLE
         box24.visibility = View.VISIBLE
+        box25.visibility = View.VISIBLE
     }
 }
