@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
     private val box24 = findViewById<TextView>(R.id.box_24)
     private val box25 = findViewById<TextView>(R.id.box_25)
 
+    private var falseArray = arrayOf(false, false, false, false, false)
+    private var board = arrayOf (falseArray, falseArray, falseArray, falseArray, falseArray)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
