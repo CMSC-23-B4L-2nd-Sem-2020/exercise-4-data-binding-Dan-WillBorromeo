@@ -22,5 +22,6 @@
     <string name="crush_question">Enter your Secret Crush</string>
     <string name="message_question">What is your message for me</string>
     <string name="done">Done</string>
+    <string name="placeholder">Placeholder</string>
     <string name="thanks_message">Thank you for answering!</string>
 </resources>
