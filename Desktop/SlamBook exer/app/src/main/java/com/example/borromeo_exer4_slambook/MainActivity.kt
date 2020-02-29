@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         view.visibility = View.GONE
 
+        binding.headerGreeting.visibility = View.GONE
         binding.nameTag.visibility = View.GONE
         binding.nameQuestion.visibility = View.GONE
         binding.nicknameTag.visibility = View.GONE
