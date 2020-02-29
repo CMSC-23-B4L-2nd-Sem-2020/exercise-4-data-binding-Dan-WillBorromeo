@@ -9,7 +9,7 @@
         tools:context=".MainActivity">
 
         <TextView
-            android:id="@+id/header_greeting"
+            android:id="@+id/headerGreeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -20,13 +20,13 @@
             tools:visibility="visible" />
 
         <ScrollView
-            android:id="@+id/field_stuff"
+            android:id="@+id/fieldStuff"
             android:layout_width="match_parent"
             android:layout_height="700dp"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/header_greeting"
+            app:layout_constraintTop_toBottomOf="@+id/headerGreeting"
             tools:visibility="visible">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,7 +35,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/name_tag"
+                    android:id="@+id/nameTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -46,7 +46,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <EditText
-                    android:id="@+id/name_question"
+                    android:id="@+id/nameQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -56,10 +56,10 @@
                     android:hint="@string/name_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/name_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/nameTag" />
 
                 <TextView
-                    android:id="@+id/nickname_tag"
+                    android:id="@+id/nicknameTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -67,10 +67,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/nickname_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/name_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/nameQuestion" />
 
                 <EditText
-                    android:id="@+id/nickname_question"
+                    android:id="@+id/nicknameQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -80,10 +80,10 @@
                     android:hint="@string/nickname_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/nickname_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/nicknameTag" />
 
                 <TextView
-                    android:id="@+id/age_tag"
+                    android:id="@+id/ageTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -91,10 +91,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/age_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/nickname_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/nicknameQuestion" />
 
                 <EditText
-                    android:id="@+id/age_question"
+                    android:id="@+id/ageQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -104,10 +104,10 @@
                     android:hint="@string/age_question"
                     android:inputType="number"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/age_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/ageTag" />
 
                 <TextView
-                    android:id="@+id/bday_tag"
+                    android:id="@+id/bdayTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -115,10 +115,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/birthday_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/age_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/ageQuestion" />
 
                 <EditText
-                    android:id="@+id/bday_question"
+                    android:id="@+id/bdayQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -128,10 +128,10 @@
                     android:hint="@string/bday_question"
                     android:inputType="date"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/bday_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/bdayTag" />
 
                 <TextView
-                    android:id="@+id/phone_tag"
+                    android:id="@+id/phoneTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -139,10 +139,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/phone_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/bday_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/bdayQuestion" />
 
                 <EditText
-                    android:id="@+id/phone_question"
+                    android:id="@+id/phoneQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -152,10 +152,10 @@
                     android:hint="@string/phone_question"
                     android:inputType="phone"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/phone_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/phoneTag" />
 
                 <TextView
-                    android:id="@+id/email_tag"
+                    android:id="@+id/emailTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -163,10 +163,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/email_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/phone_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/phoneQuestion" />
 
                 <EditText
-                    android:id="@+id/email_question"
+                    android:id="@+id/emailQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -176,10 +176,10 @@
                     android:hint="@string/email_question"
                     android:inputType="textEmailAddress"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/email_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/emailTag" />
 
                 <TextView
-                    android:id="@+id/course_tag"
+                    android:id="@+id/courseTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -187,10 +187,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/course_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/email_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/emailQuestion" />
 
                 <EditText
-                    android:id="@+id/course_question"
+                    android:id="@+id/courseQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -200,10 +200,10 @@
                     android:hint="@string/course_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/course_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/courseTag" />
 
                 <TextView
-                    android:id="@+id/udream_tag"
+                    android:id="@+id/udreamTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -211,10 +211,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/dream_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/course_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/courseQuestion" />
 
                 <EditText
-                    android:id="@+id/udream_question"
+                    android:id="@+id/udreamQuestion"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -224,10 +224,10 @@
                     android:hint="@string/dream_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/udream_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/udreamTag" />
 
                 <TextView
-                    android:id="@+id/crush_tag"
+                    android:id="@+id/crushTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -235,10 +235,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/crush_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/udream_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/udreamQuestion" />
 
                 <EditText
-                    android:id="@+id/crush_question"
+                    android:id="@+id/crushQuestion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -248,10 +248,10 @@
                     android:hint="@string/crush_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/crush_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/crushTag" />
 
                 <TextView
-                    android:id="@+id/message_tag"
+                    android:id="@+id/messageTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -259,10 +259,10 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/message_tag"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/crush_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/crushQuestion" />
 
                 <EditText
-                    android:id="@+id/message_question"
+                    android:id="@+id/messageQuestion"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -272,10 +272,10 @@
                     android:hint="@string/message_question"
                     android:inputType="textPersonName"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/message_tag" />
+                    app:layout_constraintTop_toBottomOf="@+id/messageTag" />
 
                 <Button
-                    android:id="@+id/done_button"
+                    android:id="@+id/doneButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -283,13 +283,13 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/done"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/message_question" />
+                    app:layout_constraintTop_toBottomOf="@+id/messageQuestion" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
 
         <TextView
-            android:id="@+id/name_holder"
+            android:id="@+id/nameHolder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -300,7 +300,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/nickname_holder"
+            android:id="@+id/nicknameHolder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -308,10 +308,10 @@
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name_holder" />
+            app:layout_constraintTop_toBottomOf="@+id/nameHolder" />
 
         <TextView
-            android:id="@+id/age_holder"
+            android:id="@+id/ageHolder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -319,10 +319,10 @@
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nickname_holder" />
+            app:layout_constraintTop_toBottomOf="@+id/nicknameHolder" />
 
         <TextView
-            android:id="@+id/thankYou_message"
+            android:id="@+id/thankYouMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -330,7 +330,7 @@
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/age_holder" />
+            app:layout_constraintTop_toBottomOf="@+id/ageHolder" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
