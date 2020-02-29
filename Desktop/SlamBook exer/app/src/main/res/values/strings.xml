@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">SlamBook</string>
     <string name="header_greeting">Greetings!</string>
+    <string name="name_tag">Name</string>
+    <string name="nickname_tag">Nickname</string>
+    <string name="age_tag">Age</string>
+    <string name="birthday_tag">Birthday</string>
+    <string name="phone_tag">Phone Number</string>
+    <string name="email_tag">Email Address</string>
+    <string name="course_tag">Course</string>
+    <string name="dream_tag">Ultimate Dream</string>
+    <string name="crush_tag">Secret Crush</string>
+    <string name="message_tag">Message</string>
+    <string name="name_question">Enter your name</string>
+    <string name="nickname_question">Enter your nickname</string>
+    <string name="age_question">Enter your age</string>
+    <string name="bday_question">Enter your birthday</string>
+    <string name="phone_question">Enter your phone number</string>
+    <string name="email_question">Enter your email address</string>
+    <string name="course_question">Enter your course</string>
+    <string name="dream_question">Enter your Ultimate Dream</string>
+    <string name="crush_question">Enter your Secret Crush</string>
+    <string name="message_question">What is your message for me</string>
+    <string name="done">Done</string>
+    <string name="thanks_message">Thank you for answering!</string>
 </resources>
