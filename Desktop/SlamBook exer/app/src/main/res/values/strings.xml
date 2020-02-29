@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Borromeo_exer4_SlamBook</string>
+    <string name="app_name">SlamBook</string>
+    <string name="header_greeting">Greetings!</string>
 </resources>
